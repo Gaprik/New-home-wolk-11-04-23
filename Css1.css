@@ -187,3 +187,28 @@ button {
   border: 0;
   color: white;
 }
+
+button:hover {
+  background-color: lightgray;
+}
+
+.btn:hover {
+  background-color: lightgray;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+input[type="file"]+label>.btn {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  border-radius: 5px;
+  background-color: #6c757d;
+  border: 0;
+  color: white;
+  padding-top: 5%;
+  height: 60%;
+}
